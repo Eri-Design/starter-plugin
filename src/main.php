@@ -5,6 +5,6 @@
  * @package EriScaffold
  */
 
- namespace EriScaffold;
+namespace EriScaffold;
 
- require_once 'core.php';
+require_once 'core.php';
