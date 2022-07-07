@@ -23,8 +23,6 @@ function setup() {
     add_action( 'admin_enqueue_scripts', $n( 'admin_scripts' ) );
     add_action( 'admin_enqueue_scripts', $n( 'admin_styles' ) );
 
-	add_filter( 'script_loader_tag', $n( 'script_loader_tag' ), 10, 2 );
-
     add_action( 'enqueue_block_assets', $n( 'blocks_scripts' ) );
 	add_action( 'enqueue_block_editor_assets', $n( 'blocks_editor_scripts' ) );
 
