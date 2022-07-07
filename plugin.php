@@ -3,11 +3,13 @@
  * Plugin Name: Eri Scaffold
  * Description: Description goes here.
  * Version: 1.0.0
- * Author: Eri Design Studio
+ * Author: Eri
  * Author URI: https://eridesignstudio.com
  * Text-domain: eri-scaffold
  * Domain-path: languages
  * License: GPL-3.0
+ *
+ * @package EriScaffold
  */
 
 // If this file is called directly, abort.
