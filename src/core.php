@@ -122,7 +122,7 @@ function admin_styles() {
 function blocks_scripts() {
 
 	wp_enqueue_script(
-		'blocks',
+		'eri-scaffold-blocks',
 		ERI_SCAFFOLD_TEMPLATE_URL . '/dist/js/blocks.js',
 		[],
 		ERI_SCAFFOLD_VERSION,
@@ -139,7 +139,7 @@ function blocks_scripts() {
 function blocks_editor_scripts() {
 
 	wp_enqueue_script(
-		'blocks-editor',
+		'eri-scaffold-blocks-editor',
 		ERI_SCAFFOLD_TEMPLATE_URL . '/dist/js/blocks-editor.js',
 		[ 'wp-i18n', 'wp-element', 'wp-blocks', 'wp-components' ],
 		ERI_SCAFFOLD_VERSION,
@@ -147,7 +147,7 @@ function blocks_editor_scripts() {
 	);
 
 	wp_enqueue_style(
-		'editor-style',
+		'eri-scaffold-editor-style',
 		ERI_SCAFFOLD_TEMPLATE_URL . '/dist/css/editor-style.css',
 		[],
 		ERI_SCAFFOLD_VERSION
